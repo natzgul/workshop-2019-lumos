@@ -38,6 +38,15 @@
 .social-icons a {
   font-size: 18px !important;
 }
+#back-to-top:hover {
+  background-color: #1abcb0;
+  bottom: 110px !important;
+  right: 35px !important;
+}
+#back-to-top.show {
+  bottom: 110px !important;
+  right: 35px !important;
+}
 
 .clearfix {
   *zoom: 1; }
