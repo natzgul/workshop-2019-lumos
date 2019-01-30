@@ -47,7 +47,17 @@
   bottom: 110px !important;
   right: 35px !important;
 }
-
+@media (max-width: 640px) {
+  .logo-lumos {
+    width: 450px !important;
+    height: 450px !important;
+  }
+  .btn-lg {
+    font-size: 15px !important;
+    padding: 0 15px !important;
+}
+  
+}
 .clearfix {
   *zoom: 1; }
   .clearfix:before, .clearfix:after {
